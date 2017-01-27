@@ -15,7 +15,7 @@ import os
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-env = environ.Env(DEBUG=(bool, True),)
+env = environ.Env(DEBUG=(bool, False),)
 CURRENT_ENV = 'dev' # 'dev' is the default environment
 
 # read the .env file associated with the settings that're loaded
