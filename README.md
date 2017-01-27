@@ -2,5 +2,5 @@
 
 * Shorten URL
 
-   https://dolittle.herokuapp.com/new/{url}
+   https://dolittle.herokuapp.com/
 
