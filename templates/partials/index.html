@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<h1 class="center-text">dolittle URL Shortener</h1>
+
+<h3>Example creation usage:</h3>
+<code>https://dolittle.herokuapp.com/new/https://www.google.com</code><br/>
+<h3>Example creation output:</h3>
+<code>{
+  "original_url":"https://www.google.com",
+  "short_url":"https://dolittle.herokuapp.com/2871"
+}</code>
+<h3>Usage:</h3>
+<code>https://dolittle.herokuapp.com/2871</code>
+<h3>Will redirect to:</h3>
+<code>https://www.google.com/</code>
+{% endblock %}
